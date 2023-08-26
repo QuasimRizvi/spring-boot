@@ -1,0 +1,15 @@
+<h1>Fans of Spring 3.0</h1>
+<p>
+    We will be learning how to make a web app
+</p>
+
+<ul>
+    {{#videos}}
+        <li>{{name}}</li>
+    {{/videos}}
+</ul>
+
+<form action="\new-video" method="post">
+    <input type="text" name="name">
+    <button type="submit">Submit</button>
+</form>
